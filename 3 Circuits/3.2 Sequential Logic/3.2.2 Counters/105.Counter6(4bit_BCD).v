@@ -40,6 +40,7 @@ module top_module (
             end
         
         end
+        end
 
     assign ena[1] = (q[3:0] == 4'd9);
     assign ena[2] = (q[7:4] == 4'd9) && ena[1];
